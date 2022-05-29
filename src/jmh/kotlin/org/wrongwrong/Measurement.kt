@@ -51,13 +51,13 @@ open class Measurement {
     fun oneWithoutDefault() = _one.callBy(oneArgs)
 
     @Benchmark
-    fun fiveWithDefault() = _one.callBy(emptyMap())
+    fun fiveWithDefault() = _five.callBy(emptyMap())
 
     @Benchmark
     fun fiveWithoutDefault() = _five.callBy(fiveArgs)
 
     @Benchmark
-    fun twentyWithDefault() = _one.callBy(emptyMap())
+    fun twentyWithDefault() = _twenty.callBy(emptyMap())
 
     @Benchmark
     fun twentyWithoutDefault() = _twenty.callBy(twentyArgs)

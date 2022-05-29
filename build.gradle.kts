@@ -15,6 +15,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation(kotlin("reflect"))
+    // implementation(files("your local jar here"))
 }
 
 tasks.withType<KotlinCompile> {
