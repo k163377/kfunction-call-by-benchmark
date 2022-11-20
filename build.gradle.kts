@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.7.0-RC"
+    kotlin("jvm") version "1.7.20"
     id("me.champeau.gradle.jmh") version "0.5.3"
 }
 
